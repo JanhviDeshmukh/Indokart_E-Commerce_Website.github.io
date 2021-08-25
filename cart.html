@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- Cart icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- ion icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="main.js"></script>
+
+
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">    
+        <a href="index.html">Home</a>
+        <a href="Product.html">Products</a>
+        <a href="about.html">About</a>
+        
+          <a class="cart" href="cart.html">
+            <i name="basket" class="fas fa-shopping-cart" style="font-size:22px"></i>cart<span>0</span>
+          </a>
+         
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="products-container">
+        <div class="product-header">
+          <h5 class="product-title">Product</h5>
+          <h5 class="price">Price</h5>
+          <h5 class="quantity">Quantity</h5>
+          <h5 class="total">Total</h5>
+        </div>
+        <div class="products">
+
+        </div>
+      </div>
+
+      <div class="checkout">
+        <a href="http://localhost:3000/details.html" value="submit" class="checkoutbtn">Buy Now</a>
+      </div>
+
+      <script src="mains.js"></script>
+
+</body>
+</html>
